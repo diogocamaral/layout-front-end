@@ -1,0 +1,268 @@
+@font-face {
+  font-family: celulardiretoBold;
+  src: url(../fonts/OfficinaSerifStd-Bold.otf); }
+
+@font-face {
+  font-family: celulardiretoBook;
+  src: url(../fonts/OfficinaSerifStd-Book.otf); }
+
+/* line 11, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+html, body {
+  min-height: 815px;
+  height: 100%; }
+
+/* line 16, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.container, .container-fluid {
+  height: 100%;
+  min-height: 100%;
+  background-color: #f9f9f9; }
+
+/* line 22, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+div[role="main"] {
+  background-image: url("../bg.png"); }
+
+/* line 26, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+div[role="main"], nav, aside {
+  height: 100%;
+  min-height: 100%; }
+
+/* line 31, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+header, footer {
+  width: 100%;
+  text-align: center; }
+
+/* line 36, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.conheca-os-planos {
+  color: #6E2383;
+  font-family: celulardiretoBook; }
+
+/* line 41, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+header {
+  top: 0;
+  position: absolute;
+  z-index: 9999;
+  height: 300px;
+  min-height: 300px;
+  background-color: rgba(231, 112, 0, 0.8);
+  background: -webkit-linear-gradient(rgba(231, 112, 0, 0.8), rgba(255, 181, 0, 0.8), rgba(231, 112, 0, 0.8));
+  background: -o-linear-gradient(rgba(231, 112, 0, 0.8), rgba(255, 181, 0, 0.8), rgba(231, 112, 0, 0.8));
+  background: -moz-linear-gradient(rgba(231, 112, 0, 0.8), rgba(255, 181, 0, 0.8), rgba(231, 112, 0, 0.8));
+  background: linear-gradient(rgba(231, 112, 0, 0.8), rgba(255, 181, 0, 0.8), rgba(231, 112, 0, 0.8)); }
+
+/* line 54, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.jump-size-header {
+  height: 25%;
+  min-height: 25%; }
+
+/* line 59, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+div.content {
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+  z-index: 0; }
+
+/* line 66, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+footer {
+  bottom: 0;
+  padding-top: 10px;
+  color: #fff;
+  position: fixed;
+  z-index: 9999;
+  background-color: rgba(103, 0, 155, 0.8); }
+
+/* line 75, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+span.uppercase {
+  font-size: 8px;
+  text-transform: uppercase; }
+
+/* line 80, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+span.celulardireto {
+  font-size: 20px;
+  font-family: celulardiretoBook; }
+
+/* line 85, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.planos {
+  padding-top: 100px;
+  text-align: center; }
+
+/* line 90, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.planos-container {
+  display: flex;
+  justify-content: space-between; }
+
+/* line 95, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.plano-box {
+  min-height: 300px;
+  min-width: 150px; }
+
+/* line 100, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.header-plano {
+  height: 70px;
+  background-color: rgba(231, 112, 0, 0.6);
+  margin-left: -15px;
+  margin-right: -15px;
+  font-family: celulardiretoBook;
+  margin-bottom: 10px;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 3px; }
+
+/* line 111, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.content-plano .uppercase {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: celulardiretoBold;
+  color: #6E2383;
+  text-align: left; }
+
+/* line 119, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.content-plano .descricao {
+  font-size: 12px;
+  font-family: celulardiretoBold;
+  color: #816766;
+  text-align: left; }
+
+/* line 126, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+p.uppercase {
+  margin: 0; }
+
+/* line 130, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.plus-icon {
+  font-size: 30px;
+  color: #6E2383; }
+
+/* line 135, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.nome-plano {
+  padding-top: 5px;
+  color: #6E2383;
+  font-family: celulardiretoBold; }
+
+/* line 141, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.tamanho-plano {
+  color: #6E2383;
+  font-size: 50px;
+  margin: 0;
+  margin-top: -20px;
+  text-transform: uppercase;
+  font-family: celulardiretoBold; }
+
+/* line 150, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+p.menos-espaco {
+  margin-top: -5px; }
+
+/* line 154, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.footer-plano {
+  background-color: rgba(103, 0, 155, 0.6);
+  min-height: 50px;
+  margin-left: -15px;
+  margin-right: -15px;
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  color: white;
+  padding-top: 10px;
+  font-family: celulardiretoBold; }
+
+/* line 166, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.quadrado {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  margin-top: -20px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid rgba(103, 0, 155, 0.6); }
+
+/* line 179, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.valor-real {
+  font-size: 45px;
+  margin-top: -10px;
+  margin-left: -10px; }
+
+/* line 185, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.por-mes-valor {
+  margin-top: -5px; }
+
+/* line 189, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.link-contratar {
+  margin-top: -10px; }
+
+/* line 193, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.link-contratar > button {
+  margin-bottom: 10px; }
+
+/* line 197, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.header-text {
+  color: #6E2383;
+  font-family: celulardiretoBook;
+  text-align: left;
+  font-weight: bold; }
+
+/* line 204, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.celulardireto-header {
+  font-size: 42px;
+  margin-top: 20px; }
+
+/* line 209, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.controle-giga-header {
+  font-size: 92px;
+  margin-top: -45px; }
+
+/* line 214, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+span.giga {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: celulardiretoBook; }
+
+/* line 219, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.largura-minima-maior {
+  min-width: 630px; }
+
+/* line 223, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.largura-minima {
+  min-width: 545px; }
+
+/* line 227, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.content-plano.topo {
+  height: 150px;
+  margin-top: -25px; }
+
+/* line 232, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.content-plano.topo .uppercase {
+  font-size: 12px; }
+
+/* line 236, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.content-plano.topo .uppercase, .content-plano.topo .descricao {
+  min-width: 170px;
+  margin-left: -35px;
+  margin-top: -5px; }
+
+/* line 242, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.content-plano.topo .descricao {
+  color: rgba(255, 255, 255, 0.7); }
+
+/* line 246, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.plus-icon.topo {
+  font-size: 20px;
+  margin-left: -60px;
+  margin-top: -5px; }
+
+/* line 252, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.text-internet {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: celulardiretoBook;
+  margin-top: -10px;
+  font-size: 18px; }
+
+/* line 260, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+.quatro-ge {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: celulardiretoBook;
+  margin-top: -20px;
+  font-size: 40px; }
+
+/* line 268, /Users/diogo/workspace/layout-front-end/src/sass/main.scss */
+header .tamanho-plano {
+  margin-top: -37px;
+  font-size: 40px; }
