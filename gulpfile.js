@@ -1,10 +1,11 @@
-var gulp        = require('gulp'),
-    browserify  = require('gulp-browserify'),
-    uglify      = require('gulp-uglify'),
-    sass        = require('gulp-sass'),
-    connect     = require('gulp-connect'),
+var gulp          = require('gulp'),
+    browserify    = require('gulp-browserify'),
+    uglify        = require('gulp-uglify'),
+    sass          = require('gulp-sass'),
+    connect       = require('gulp-connect'),
+    autoprefixer  = require('gulp-autoprefixer'),
 
-    gulpif      = require('gulp-if');
+    gulpif        = require('gulp-if');
 
 var env         = process.env.NODE_ENV || 'development';
 var outputDir   = 'builds/development';
@@ -34,7 +35,8 @@ gulp.task('sass', function(){
     config.outputStyle = 'compressed';
   }
 
-  return gulp.src('src/sass/main.scss')
+  return gulp.src('src/sass/main.sass')
+        .pipe(autoprefixer({ browsers: ['last 2 versions'], cascade: false }))
         .pipe(sass(config))
         .pipe(gulp.dest(outputDir + '/css'))
         .pipe(connect.reload());
